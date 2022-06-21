@@ -1,0 +1,45 @@
+:root
+{
+	--banner-font-size: 65pt;
+	--banner-height: 150px;
+	
+	--banner-coloir:#00FF00;
+
+}
+#title
+{
+	filter: drop-shadow(4px 4px 2px black);
+    color: #00FF00;
+	font-family:"Fira Sans", sans-serif;
+    font-style: normal;
+    font-size: 65pt;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    top: calc(150pt/ 2 - 65pt/ 2);
+
+}
+
+
+body {
+	background-color: #123;
+	margin: 0 auto;
+	padding: 0 20px;
+	font-size: 16px;
+  }
+  
+
+canvas {
+	border: 225px;
+    border:solid;
+    border-color:#00FF00;
+    background-color : rgb(61, 90, 119);
+    display: block;
+    margin: 150px auto;
+    box-shadow: 10px 10px 10px #228B22, -10px -10px 10px #228B22;
+}
+    
+    
+
+
+ 
